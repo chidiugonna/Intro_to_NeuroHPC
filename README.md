@@ -25,6 +25,8 @@ An outline for a day training at UA in the neurobiology group.
 
    - Practical
 
+      [Practical 1: First Look at HPC](https://github.com/chidiugonna/Intro_to_NeuroHPC/blob/master/Practical01.md)
+
       [Practical 1: First Look at HPC]: Practical01.md	"Practical 1 - hello HPC"
 
       
@@ -34,6 +36,7 @@ An outline for a day training at UA in the neurobiology group.
    
 
 - 10:15 - 12:00
+   
    - Uploading/Downloading Data and Dealing with Data
    
       - HIPAA
