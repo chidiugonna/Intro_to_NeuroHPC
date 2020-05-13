@@ -79,13 +79,13 @@ An outline for a day training at UA in the neurobiology group.
    
    - **Practical 05: Example using docker image of fmriprep**
    
-     [Practical 05 : Fmri Pipeline](https://github.com/chidiugonna/Intro_to_NeuroHPC/blob/master/Practical05_extra.md) 
+     [Practical 05 : Fmri Pipeline](https://github.com/chidiugonna/Intro_to_NeuroHPC/blob/master/Practical05.md) 
    
      
    
    - **Practical 06: Example using prebuilt singularity image on diffusion pipeline**
    
-     [Practical 06 : Diffusion Pipeline](https://github.com/chidiugonna/Intro_to_NeuroHPC/blob/master/Practical06_extra.md) 
+     [Practical 06 : Diffusion Pipeline](https://github.com/chidiugonna/Intro_to_NeuroHPC/blob/master/Practical06.md) 
    
      
    
@@ -101,7 +101,7 @@ An outline for a day training at UA in the neurobiology group.
    
    - **Practical 07 Extra : building your own singularity containers**
    
-     [Practical 07 Extra : Build singularity containers](https://github.com/chidiugonna/Intro_to_NeuroHPC/blob/master/Practical07_extra_extra.md) 
+     [Practical 07 Extra : Build singularity containers](https://github.com/chidiugonna/Intro_to_NeuroHPC/blob/master/Practical07_extra.md) 
    
      
    
