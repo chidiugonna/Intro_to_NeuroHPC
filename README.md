@@ -1,4 +1,4 @@
-# Intro_to_NeuroHPC April 27th, 2020
+# Intro_to_NeuroHPC dd/mm/2020
 An outline for a day training at UA in the neurobiology group. 
 
 # Goals
@@ -7,7 +7,7 @@ An outline for a day training at UA in the neurobiology group.
 - 
 
 
-# Schedule (9:30-15:00; Main Library RM 252B)
+# Schedule (9:30-15:00; Venue ?)
 - 9:00 - 9:30 Coffee and Registration
 
    
@@ -23,11 +23,9 @@ An outline for a day training at UA in the neurobiology group.
       - Requesting Jobs and Resources
       - Jupyter notebooks
 
-   - Practical
+   - **Practical 01- logging on to the HPC**
 
-      [Practical 1: First Look at HPC](https://github.com/chidiugonna/Intro_to_NeuroHPC/blob/master/Practical01.md)
-
-      [Practical 1: First Look at HPC]: Practical01.md	"Practical 1 - hello HPC"
+      [Practical 01: First Look at HPC](https://github.com/chidiugonna/Intro_to_NeuroHPC/blob/master/Practical01.md)
 
       
 
@@ -36,26 +34,76 @@ An outline for a day training at UA in the neurobiology group.
    
 
 - 10:15 - 12:00
+
+   - Using Software Modules
+
+   - **Practical 02 - exploring and using stock modules**
+
+     [Practical 02: Modules](https://github.com/chidiugonna/Intro_to_NeuroHPC/blob/master/Practical02.md)
+
+   - Using Containers 
+     - Use Docker Containers with  singularity
+     - Pre-supplied singularity containers (Build your own, Obtain from others - Dianne Patterson)
+     
+   - **Practical 03 - working with containers**
+
+     [Practical 02: Containers](https://github.com/chidiugonna/Intro_to_NeuroHPC/blob/master/Practical03.md)
+
    
-   - Uploading/Downloading Data and Dealing with Data
-   
-      - HIPAA
-   
-   - Getting Software
-      - Modules
-      - Containers (Dianne's containers)
+
+   - Uploading/Downloading Data and Dealing with Neuroimaging Data
+
+      - HIPAA Compliance
+      - BIDS
+      - Download/upload methods
+
+   - **Practical 04 - upload data to HPC, download results locally**
+
+      [Practical 04: Upload and Download Data](https://github.com/chidiugonna/Intro_to_NeuroHPC/blob/master/Practical04.md)
+
       
-      
-   
+
+   - **Practical 04 Extra- Convert Dicom data to BIDS**
+
+     [Practical 04 Extra: BIDS Conversion](https://github.com/chidiugonna/Intro_to_NeuroHPC/blob/master/Practical04_extra.md) 
+
+       
+
 - 12:00 - 13:00 Lunch
 
-- 13:00 - 14:00 
    
-   - Analysis
+
+- 13:00 - 14:00 
+  
+   - scripting multisubject analysis for neuroimaging
+   
+   - **Practical 05: Example using docker image of fmriprep**
+   
+     [Practical 05 : Fmri Pipeline](https://github.com/chidiugonna/Intro_to_NeuroHPC/blob/master/Practical05_extra.md) 
+   
+     
+   
+   - **Practical 06: Example using prebuilt singularity image on diffusion pipeline**
+   
+     [Practical 06 : Diffusion Pipeline](https://github.com/chidiugonna/Intro_to_NeuroHPC/blob/master/Practical06_extra.md) 
+   
+     
    
 - 14:15 - 15:00
+  
+   - Using jupyter notebooks for analysis and visualization
    
-   - Viewing Results
+   - **Practical 07: Using Nipy libraries in Jupyter notebook**
+   
+     [Practical 07 : Jupyter Notebook](https://github.com/chidiugonna/Intro_to_NeuroHPC/blob/master/Practical07.md) 
+   
+     
+   
+   - **Practical 07 Extra : building your own singularity containers**
+   
+     [Practical 07 Extra : Build singularity containers](https://github.com/chidiugonna/Intro_to_NeuroHPC/blob/master/Practical07_extra_extra.md) 
+   
+     
    
 - Doors close at 16:00
 
