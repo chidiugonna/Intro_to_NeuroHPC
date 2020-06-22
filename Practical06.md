@@ -1,4 +1,4 @@
-# Practical 6
+# Practical 06
 
 
 
@@ -11,5 +11,5 @@ Learn to use existing container to perform multisubject processing using diffusi
 ### Exercise: 
 
 - create a bash file on HPC tp create version of a custom container orbisys/bidsconvert:02 for bids conversion on the HPC
-
-- bbvb
+- to run interactively and to speed up EDDY will need to use GPU node
+- 

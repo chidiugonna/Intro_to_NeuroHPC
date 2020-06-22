@@ -1,14 +1,15 @@
-# Practical 2
+# Practical 04 Extra : BIDS Specification
 
 
 
-## Objectives
+## Objectives 04_Extra
 
-Learn to pull existing docker containers for use on the HPC 
+- Use a provided container to convert DICOMS to the BIDS format
 
 
 
-### Exercise : BIDS Conversion
+
+### Exercise 04_Extra: BIDS Conversion
 
 - create a bash file on HPC tp create version of a custom container orbisys/bidsconvert:02 for bids conversion on the HPC
 
@@ -25,7 +26,7 @@ Learn to pull existing docker containers for use on the HPC
 
 - Singularity container `bidsconvert-0.2.sif` should be created
 
-- We will now convert a sample set of DICOMS to bids format, first we need to do a few preliminaries. Create an output folder `nifti` for your output and make it accessible
+- We will now convert a sample set of DICOMS to bids format, first we need to perform a few preliminaries. Create an output folder `nifti` for your output and make it accessible
 
   ```
   mkdir -p nifti
@@ -78,20 +79,19 @@ Learn to pull existing docker containers for use on the HPC
 
   ```
   #!/bin/bash
-  module load singularity
-  singularity run --it --rm  -v $PWD:/mnt              \
-                    -v /home/u8/chidiugonna/HPCWORKSHOP/data/DICOMS:/dicom         \
+  docker run --it --rm  -v $PWD:/mnt              \
+                    -v /DICOMS:/dicom         \
                     -v $PWD/nifti:/nifti         \
                     orbisys/bidsconvert:0.2       \
                     python  /src/bidsconvert.py  \
                     --subject 001  --dicomdir /dicom --niftidir /nifti --bidsconfig /mnt/bids_config.json --overwrite True
   ```
-
   
 
+  
 - Delete the temporary folders `logs` and `tmp_dcm2bids` once completed
 
   
 
-- TODO: Complete bidspreprocess that also does defacing
+- **TODO: Complete bidspreprocess that also does defacing**
 

@@ -1,4 +1,4 @@
-# Practical 5
+# Practical 05 : Multisubject Analysis using a BIDSApp
 
 
 
