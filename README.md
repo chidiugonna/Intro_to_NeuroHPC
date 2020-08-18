@@ -1,5 +1,5 @@
 # Intro_to_NeuroHPC dd/mm/2020
-An outline for a day of HPC training for neuroimaging 
+An outline for a day of HPC training for neuroimaging researchers
 
 # Goals
 Introduction to the High Performance Cluster at the University of Arizona to help neuroimaging researchers from a wide range of backgrounds learn
@@ -26,19 +26,22 @@ Introduction to the High Performance Cluster at the University of Arizona to hel
      - Nodes (login, compute, gpu), memory, cpus
    
 - Using Open On Demand
-   
-      - Introduction to accessing files, running Desktop and shell terminals on cluster.
+
+   - Introduction to accessing files, running Desktop and shell terminals on cluster.
+
    - brief overview of Jupyter notebooks
-   
+
+     
+
 - **Practical 01- logging on to the HPC**
-   
+  
    [Practical 01: Logging on to HPC](https://github.com/chidiugonna/Intro_to_NeuroHPC/blob/master/Practical01.md)
    
    
    
 - 10:00 - 10:15 Break
 
-   
+  
 
 - 10:15 - 12:00
 
@@ -127,7 +130,7 @@ Introduction to the High Performance Cluster at the University of Arizona to hel
 
 # Additional Resources
 - Research Bazaar Arizona
-   - Annual Event is May 18-20
+   - Annual Event is in mid-May
    - Weekly events Tuesday and Thursdays
 
 
